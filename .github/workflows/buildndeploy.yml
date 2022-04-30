@@ -65,7 +65,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: myprivaterepo
-        IMAGE_TAG:  springboothelloworld:latest
+        IMAGE_TAG:  springboothelloworld
       run: |
         # Build a docker container and
         # push it to ECR so that it can
