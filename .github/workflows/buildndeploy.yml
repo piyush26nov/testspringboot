@@ -45,7 +45,7 @@ jobs:
 
     - uses: actions/download-artifact@v2
       with:
-          name: testspringboot
+          name: testspringboot-0.0.1-SNAPSHOT.jar
           path: target/
 
     - run: cat target/testspringboot-0.0.1-SNAPSHOT.jar
